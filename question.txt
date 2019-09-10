@@ -1,0 +1,20 @@
+DESCRIPTION
+Write a Python code that stores the number of faces and the coordinates of the second face detected from a given image into the output.txt file.
+
+Input Format
+You have to read the image 1.jpg  present at the location (/data/training/1.jpg)
+You can use the file haarcascade_frontalface_default.xml present at the location (/data/training/haarcascade_frontalface_default.xml)  to detect the faces
+
+Output Format
+You have to write your output to a file named output.txt present at the location (/code/output.txt)  which should include the following:
+The first line should indicate the number of faces detected from the given image.
+The second line should indicate the coordinates of the second face detected from the given image.
+
+Sample Test Cases
+
+Sample Output
+
+output.txt contains the following:
+
+2
+[187  66 149 149]
